@@ -37,6 +37,9 @@ using namespace std;
         [2,3,5]
     8)clear :- v.clear() -> it clear the entire vector
 
+    9) reverse :- reverse(v.begin(),v.end()) -> reverse begin to end
+
+    10)sort:- sort(v.begin(), v.end());
 */
 
 int printVector(vector<int>v)
