@@ -39,7 +39,10 @@ int main()
     for ( itt = v1.begin(); itt != v1.end(); itt++)
     {
         cout<<(*itt).first<<" "<<(*itt).second<<endl;
-        cout<<itt->first<<" "<<itt->second<<endl;
+
+        // cout<<itt->first<<" "<<itt->second<<endl; you can also use this .... both are right
+        // (*itt).first <=> itt->first
+       
     }
     
 }
