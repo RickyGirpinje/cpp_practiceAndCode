@@ -18,7 +18,19 @@ int main()
     }
     //key will be print in sorted order....
     
-
     //insertion and accessing time complexity of map is O(log n)
+
+    // when we use find method .... and the element is not present then it will return m.end(); that is next of last itterator..... so lets see find method...
+
+    auto itt = m.find(3); //it will return iterator 
+
+    if((itt) == m.end())
+    {
+        cout<<"not present"<<endl;
+    }
+    else
+    {
+        cout<<(*itt).first<<" "<<(*itt).second<<endl;
+    }
 
 }
